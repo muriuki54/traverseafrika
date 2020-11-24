@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- As a link -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </nav>
+
+<section id="hero_section">
+    <div class="hero_section_slider">
+            <div class="sliders_wrapper">
+                <!-- slides --->
+                <div class="slide">
+                    <img src="https://traverseafrika.com/wp-content/uploads/2019/08/amboseli1-1.jpg" alt="" class="full_width_full_height" />
+                    <div class="slide_info text-light">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
+                        <a href="/readmore" class="button button_primary">Read More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Croodile-Blue-Nile-Murchison-NP-768x576.jpg" alt="" class="full_width_full_height" />
+                    <div class="slide_info text-light">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
+                        <a href="/readmore" class="button button_primary">Read More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Grevy-Zebra-2.jpg" alt="" class="full_width_full_height" />
+                    <div class="slide_info text-light">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
+                        <a href="/readmore" class="button button_primary">Read More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://traverseafrika.com/wp-content/uploads/2019/08/cheetah-in-the-masai-mara.jpg" alt="" class="full_width_full_height" />
+                    <div class="slide_info text-light">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
+                        <a href="/readmore" class="button button_primary">Read More</a>
+                    </div>
+                </div>
+                <!-- end slides---->
+            </div>
+            <!---- controls (populate by determining the numer of slides with js) --->
+            <div class="hero_slider_controls"></div>
+            <!--- end controls --->
+
+            <!--slide slider_progress--->
+            <div class="slider_progress"></div>
+            <!-- end slider_progress--->
+
+    </div>
+</section>
+
+<section id="cards">
+    <h2 class="text-center p-4">A catchy heading here</h2>
+    <div class="cards_wrapper">
+        <!-- cards -->
+            <div class="card">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/amboseli1-1.jpg" alt="" class="full_width_full_height">
+                <div class="card_content">
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
+                    <a href="/card" class="button button_primary">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/CAMPING.jpg" alt="" class="full_width_full_height">
+                <div class="card_content">
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
+                    <a href="/card" class="button button_primary">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Grevy-Zebra-2.jpg" alt="" class="full_width_full_height">
+                <div class="card_content">
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
+                    <a href="/card" class="button button_primary">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/serengeti.jpg" alt="" class="full_width_full_height">
+                <div class="card_content">
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
+                    <a href="/card" class="button button_primary">Learn more</a>
+                </div>
+            </div>
+        <!-- end cards --->
+    </div>
+</section>
+
+<section id="map_display">
+    <div class="map_wrapper">
+        <div class="map_left_content">
+            <h2>The great lakes region</h2>
+            <i>(drag map to see various locations we visit)</i>
+            <hr />
+            <p class="lead mb-2">East Africa, other than being the cradle of mankind, is a one of a kind region. Thriving with multiple species of wildlife, it also boasts having the Big Five.</p>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nostrum expedita laborum maxime fugiat maiores doloribus ex. Quo, veniam? Possimus!</p>
+        </div>
+        <div id="mapid"></div>
+    </div>
+</section>
+
+<footer class="p-3 bg-dark text-light">
+    <p class="text-center">traverseafrika</p>
+</footer>
+
+<script src="./main.js"></script>
+</body>
+</html>
