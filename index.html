@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -13,7 +15,7 @@
 <!-- As a link -->
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
-  </nav>
+</nav>
 
 <section id="hero_section">
     <div class="hero_section_slider">
@@ -22,7 +24,7 @@
                 <div class="slide">
                     <img src="https://traverseafrika.com/wp-content/uploads/2019/08/amboseli1-1.jpg" alt="" class="full_width_full_height" />
                     <div class="slide_info text-light">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <h2>The Big Five</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
                         <a href="/readmore" class="button button_primary">Read More</a>
                     </div>
@@ -30,15 +32,15 @@
                 <div class="slide">
                     <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Croodile-Blue-Nile-Murchison-NP-768x576.jpg" alt="" class="full_width_full_height" />
                     <div class="slide_info text-light">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <h2>Diverse selection of wildlife.</h2>
                         <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
                         <a href="/readmore" class="button button_primary">Read More</a>
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Grevy-Zebra-2.jpg" alt="" class="full_width_full_height" />
+                    <img src="./wildbeest.jpg" alt="" class="full_width_full_height" />
                     <div class="slide_info text-light">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <h2>The eighth wonder of the world.</h2>
                         <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
                         <a href="/readmore" class="button button_primary">Read More</a>
                     </div>
@@ -46,7 +48,7 @@
                 <div class="slide">
                     <img src="https://traverseafrika.com/wp-content/uploads/2019/08/cheetah-in-the-masai-mara.jpg" alt="" class="full_width_full_height" />
                     <div class="slide_info text-light">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, inventore!</h2>
+                        <h2>Big game.</h2>
                         <p>Lorem elit. Recusandae enim quisquam consectetur, tenetur odio nostrum at nobis vero dolorum illo.</p>
                         <a href="/readmore" class="button button_primary">Read More</a>
                     </div>
@@ -64,30 +66,38 @@
     </div>
 </section>
 
-<section id="cards">
-    <h2 class="text-center p-4">A catchy heading here</h2>
+<section>
+    <div class="container py-5">
+        <h2 class="text-center py-4">Traverse the African landscape in style</h2>
+        <img src="./africa.png" alt="" class="center africa_icon">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quo reprehenderit aliquam. Recusandae minima quisquam est expedita enim, accusantium autem possimus distinctio nobis? Nam totam, odit minus molestias ipsa fugiat qui deleniti asperiores cupiditate expedita quos tenetur quod id, repellendus explicabo quaerat, aspernatur ipsam nemo temporibus? Nam voluptates voluptatem, nostrum suscipit illo, tempore reprehenderit blanditiis amet voluptatum accusamus voluptatibus eius culpa perferendis, quibusdam distinctio. Amet facilis dolor praesentium cumque doloremque totam sunt ut autem velit ex quisquam, inventore optio distinctio maiores eveniet tempora iusto nam ipsa beatae dolorum accusamus dicta. Dolores adipisci, obcaecati provident nihil rem ipsa? Amet, at sint!</p>
+    </div>
+</section>
+
+<section id="cards" class="py-3">
+    <h3 class="text-center">Featured expeditions</h3>
     <div class="cards_wrapper">
         <!-- cards -->
             <div class="card">
-                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/amboseli1-1.jpg" alt="" class="full_width_full_height">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/amboseli1-1.jpg" alt="" class="full_width_full_height" />
                 <div class="card_content">
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <h4>Expedition 1</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, suscipit.</p>
+                    <a href="/card" class="button button_primary">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/CAMPING.jpg" alt="" class="full_width_full_height" />
+                <div class="card_content">
+                    <h4>Expedition 2</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
                     <a href="/card" class="button button_primary">Learn more</a>
                 </div>
             </div>
             <div class="card">
-                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/CAMPING.jpg" alt="" class="full_width_full_height">
+                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Grevy-Zebra-2.jpg" alt="" class="full_width_full_height" />
                 <div class="card_content">
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
-                    <a href="/card" class="button button_primary">Learn more</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://traverseafrika.com/wp-content/uploads/2019/08/Grevy-Zebra-2.jpg" alt="" class="full_width_full_height">
-                <div class="card_content">
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <h4>Expedition 3</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
                     <a href="/card" class="button button_primary">Learn more</a>
                 </div>
@@ -95,12 +105,15 @@
             <div class="card">
                 <img src="https://traverseafrika.com/wp-content/uploads/2019/08/serengeti.jpg" alt="" class="full_width_full_height">
                 <div class="card_content">
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <h4>Expedition 4</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus eius quia perferendis qui illo.</p>
                     <a href="/card" class="button button_primary">Learn more</a>
                 </div>
             </div>
         <!-- end cards --->
+    </div>
+    <div class="card wrapper all_expeditions_card">
+        <div class="card_content"><a href="#">See all expeditions</a></div>
     </div>
 </section>
 
@@ -119,14 +132,17 @@
 
 <section id="contact">
     <h2 class="text-center text-light p-1">Request your custom quote today</h2>
+    <h3 class="text-center text-light fa-4x"><i class="fas fa-comments"></i></h3>
+
     <div class="contact_wrapper">
         <div class="contact_wrapper_left"></div>
         <div class="contact_form_wrapper">
             <form>
-                <input type="text" placeholder="Enter your name" />
-                <input type="text" placeholder="Enter your email" />
+                <input type="text" placeholder="Enter your name" required/>
+                <input type="text" placeholder="Enter your email" required/>
                 <input type="text" placeholder="Enter your subject" />
-                <textarea name="" rows="8" placeholder="Enter your message"></textarea>
+                <textarea name="" rows="8" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Submit">
             <form>
         </div>
     </div>
