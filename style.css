@@ -267,6 +267,7 @@ img.full_width_full_height { height: 100%; width: 100%;}
 }
 .leaflet-popup-content-wrapper img {
     height: 70%;
+    width: 100%;
 }
 
 /******** CONTACT FORM ****************/
